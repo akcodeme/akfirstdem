@@ -1,0 +1,212 @@
+
+.Uber{
+  background-color: rgb(204, 0, 0);
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+  border: solid;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  transition: 0.1s;
+  box-shadow: 5px 5px 5px grey;
+  display:inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+  
+}
+
+.Uber:hover{
+  color: rgb(204, 0, 0);
+  background-color: white;
+  box-shadow: 10px 10px 10px black;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.Uber:active{
+  opacity: 30%;
+  padding: 10px;
+}
+
+
+
+.amazon{
+  margin-right: 10px;
+}
+.amazon:hover{
+color: green;
+font-size: larger;
+}
+
+
+.textstyle{
+  font-family: 'Fuggles', cursive;
+font-weight: bolder;
+font-size: 30px;
+  
+  color: lightblue;
+}
+
+.textstyle:hover{
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+
+.image{
+  width: 50px;
+  height: 50px;
+  object-position:right;
+  object-fit:cover;
+border-radius: 100px;
+vertical-align: middle;
+}
+
+.image:hover{
+  width: 100px;
+  height: 100px;
+  border-radius: 200px;
+  cursor: pointer;
+}
+
+.twe{
+  background-color: rgb(8, 158, 228);
+  color: white;
+  padding-top: 8px ;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 12px;
+  border: solid;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  transition: 0.1s;
+  box-shadow: 5px 5px 5px grey;
+  display:inline-block;
+  margin-left: 130px;
+}
+
+.twe:active{
+  padding-top: 6px ;
+  padding-bottom: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 9px;
+}
+
+.ltext{
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.log1{
+  padding-top: 8px ;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 75px;
+  font-size: 8px;
+  color: grey;
+  font-weight: 800;
+  background-color: rgb(240, 240, 240);
+  border: none;
+}
+
+.log2{
+  padding-top: 8px ;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 75px;
+  font-size: 8px;
+  color: grey;
+  font-weight: 800;
+  background-color: rgb(240, 240, 240);
+  border: none;
+
+}
+
+.logbut{
+
+  font-size: 2px;
+
+}
+
+.red-square {
+  background-color: rgb(0, 255, 0);
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.feedback{
+  border-color: black;
+  box-shadow: 5px 5px 5px black;
+  width: 340px;
+}
+
+.sundar{
+  box-shadow: 4px 4px 4px grey;
+  border-radius: 10px;
+}
+
+.ereny{
+ width: 75px;
+ box-shadow: 10px 10px 10px black;
+
+ margin-right: 10px;
+}
+
+
+.vidcontainer{
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+column-gap: 20px;
+row-gap: 10px;
+height: 400px;
+margin-bottom: 20px;
+
+
+}
+
+
+.erencontainer{
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+align-items: center;
+
+}
+
+.pracflex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-style: solid;
+  height: 50px;
+  align-items: center;
+
+
+}
+
+.pracnest{
+
+  flex-direction: row;
+  display: flex;
+  height: 50px;
+}
+
+.pracnest2{
+
+  background-color: lightblue;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+
+}

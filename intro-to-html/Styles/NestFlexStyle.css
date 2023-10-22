@@ -1,0 +1,19 @@
+.mailcontainer{
+
+border-style: solid;
+
+}
+
+.mailimage2{
+  
+  border-radius: 50px; 
+  width: 40px;
+
+}
+
+.mailimage{
+  margin-left: 10px;
+ 
+  flex-direction: row;
+  display: flex;
+}
